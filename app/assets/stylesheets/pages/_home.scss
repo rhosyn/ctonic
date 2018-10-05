@@ -1,0 +1,26 @@
+// Specific CSS for your home-page
+
+
+.header-link {
+  // color: black;
+  // text-decoration: none;
+  &:hover {
+    // color: #8633C2;
+    text-decoration: none;
+  }
+}
+
+.header_img {
+  width: 150px;
+  height: 150px;
+}
+
+.text-center h1 {
+  margin-top: 100px;
+}
+
+@media(min-width: 600px) {
+  .text-center h1 {
+  margin-top: 200px;
+  }
+}
